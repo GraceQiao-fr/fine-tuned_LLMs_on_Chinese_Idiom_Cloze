@@ -1,4 +1,4 @@
-# fine-tuned_LLMs_on_Chinese_Idiom_Cloze
+# Fine-tuned LLMs on Chinese Idiom Cloze
 
 ## T5-small and mT5-small
 
