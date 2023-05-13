@@ -32,7 +32,7 @@ We tried to only use prompt engineering before fine-tuning, but both models got 
 We also tried to use different instructions that have the similar meaning with the fine-tuning instruction to instruct the model to choose the proper idiom from the candidates, in order to see if the model can really understand the instruction. However, the accuracy became only 5.98% and 16.24% for T5-small and mT5-small, respectively. The output also showed that although the model can make some correct predictions, they do not really understand the instruction to choose the proper idiom. 
 
 We can conclude that the proper prompts highly rely on the training data during fine-tuning. In other words, the models can only execute the same instructions as those in the training data. This shows that the instructions can be useless for both models, and we only need to provide the models with input and output results.
-For more details of T5-small and mT5-small models, please refer to the notebook `T5/mT5-small: Prompt Engineering, Evaluation and Comparison` (https://github.ubc.ca/qmygrace/COLX_585_group_zootopia/blob/main/Final_result/T5%26mT5_small_propmt_engineering_and_comparison.ipynb) 
+For more details of T5-small and mT5-small models, please refer to the notebook `T5/mT5-small: Prompt Engineering, Evaluation and Comparison` (https://github.com/GraceQiao-fr/fine-tuned_LLMs_on_chinese_idiom_cloze/blob/main/T5%26mT5_small_propmt_engineering_and_comparison.ipynb) 
 
 ## ChatGPT Prompt Engineering
 
